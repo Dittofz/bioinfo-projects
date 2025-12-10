@@ -2,7 +2,7 @@
 # Assignment for Week 01
 
 #Answers go here
-
+```
 conda activate bioinfo
 
 samtools --version
@@ -36,3 +36,4 @@ git add .
 git commit -m "submit assignment for week 01"
 
 git push
+```
