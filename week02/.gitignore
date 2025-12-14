@@ -1,0 +1,4 @@
+# Ignore GFF files and other data files
+*.gff3
+*.gz
+# Add other patterns as needed, e.g., *.fasta, *.bam
