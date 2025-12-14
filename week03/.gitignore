@@ -1,0 +1,16 @@
+# Bioinformatics data files
+*.fa
+*.fasta
+*.fai
+*.gff
+*.gff3
+*.bam
+*.bai
+*.sam
+*.vcf
+*.bed
+*.bigwig
+*.wig
+*.fastq
+*.fq
+*.gz
