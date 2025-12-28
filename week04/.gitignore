@@ -1,0 +1,80 @@
+# Ignore raw and large bioinformatics data files (keep README, scripts, and result images)
+# Sequencing reads
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Alignments / assemblies / indexes
+*.sam
+*.bam
+*.bai
+*.bam.bai
+*.cram
+*.cram.crai
+*.fai
+*.dict
+
+# Variant and intermediate files
+*.vcf
+*.vcf.gz
+*.bcf
+
+# Reference/sequence files
+*.fasta
+*.fa
+*.fna
+*.fasta.gz
+*.fa.gz
+
+# Annotation files
+*.gff
+*.gff3
+*.gtf
+*.gtf.gz
+
+# BED / track / coverage files
+*.bed
+*.bed.gz
+*.bedGraph
+*.bw
+*.bigWig
+*.bigwig
+
+# Indexes and alignment auxiliary files
+*.bwt
+*.pac
+*.ann
+*.amb
+*.sa
+
+# Common archives that may contain data
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+
+# Common data folders (adjust if you keep result images here)
+data/
+raw_data/
+raw/
+input/
+genomes/
+results/raw/
+
+# Temporary, logs and editor files
+*.log
+*.tmp
+*.temp
+*.swp
+*~
+.ipynb_checkpoints/
+.DS_Store
+.Rhistory
+.RData
+
+# Ignore large binary outputs (if present)
+*.bin
+
+# Note: Keep image files (png,jpg,svg,pdf) so IGV session images and report figures can be committed.
