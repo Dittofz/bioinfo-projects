@@ -8,7 +8,7 @@ GCF_000848505.1 is NCBI Assembly ID for Ebola virus/H.sapiens-tc/COD/1976/Yambuk
 ### Write shell commands to download the genome and annotation data. Ensure your commands are reusable and reproducible.
 ```
 datasets download genome accession GCF_000848505.1 --include genome,gff3,gtf
-$ unzip -n ncbi_dataset.zip
+unzip -n ncbi_dataset.zip
 ```
 ## Visualization:
 ### Use IGV to visualize the genome and its annotations (e.g., GFF file) relative to the genome sequence.
