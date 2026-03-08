@@ -27,7 +27,8 @@ echo "Genome size: ${GENOME_SIZE}"
 BASES_NEEDED=$((GENOME_SIZE * 10))
 echo "Bases needed for 10x coverage: ${BASES_NEEDED}"
 # given that the data was sequenced using Illumina HiSeq 2500, we can assume that the read length is 150 bp and the data is paired-end, so we need to download enough reads to get 10x coverage
-READS_NEEDED=$((BASES_NEEDED / 150 / 2))
+# After downloading the data, we found the read length is atcually 101 bp, so we will use 101 bp as the read length for our calculations
+READS_NEEDED=$((BASES_NEEDED / 101 / 2))
 echo "Reads needed for 10x coverage: ${READS_NEEDED}"
 # make a directory for the SRA data
 mkdir -p subset_reads
